@@ -1,0 +1,14 @@
+﻿Build started 16.04.2016 12:03:47.
+     1>Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 4 - Syncronization\Task 1\Handshake\Handshake\Handshake.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Handshake.cpp
+         Handshake.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 4 - Syncronization\Task 1\Handshake\Debug\Handshake.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 4 - Syncronization\Task 1\Handshake\Debug\Handshake.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 4 - Syncronization\Task 1\Handshake\Debug\Handshake.lib" /MACHINE:X86 Debug\Handshake.res
+         Debug\Handshake.obj
+         Handshake.vcxproj -> D:\Programming\BSU FAMCS\ОС\Лабы\Subject 4 - Syncronization\Task 1\Handshake\Debug\Handshake.exe
+     1>Done Building Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 4 - Syncronization\Task 1\Handshake\Handshake\Handshake.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25

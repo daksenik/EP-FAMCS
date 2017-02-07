@@ -1,0 +1,16 @@
+﻿Build started 06.04.2016 13:30:27.
+     1>Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task3\ResourcesDLL\ResourcesDLL\ResourcesDLL.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D RESOURCESDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\ResourcesDLL.res" ResourcesDLL.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task3\ResourcesDLL\Debug\ResourcesDLL.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task3\ResourcesDLL\Debug\ResourcesDLL.pdb" /MAP /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task3\ResourcesDLL\Debug\ResourcesDLL.lib" /MACHINE:X86 /DLL Debug\ResourcesDLL.res
+         Debug\Source.obj
+         ResourcesDLL.vcxproj -> D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task3\ResourcesDLL\Debug\ResourcesDLL.dll
+     1>Done Building Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task3\ResourcesDLL\ResourcesDLL\ResourcesDLL.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01

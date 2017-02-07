@@ -1,0 +1,16 @@
+﻿Build started 08.04.2016 19:39:13.
+     1>Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 5\SharedDLL\SendClient\Win32Project1\ReceiveClient\ReceiveClient.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 5\SharedDLL\SharedBufferDLL\SharedBufferDLL" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\programming\bsu famcs\ос\лабы\subject 1 - dll\task 5\shareddll\sendclient\win32project1\receiveclient\source.cpp(24): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+     1>d:\programming\bsu famcs\ос\лабы\subject 1 - dll\task 5\shareddll\sendclient\win32project1\receiveclient\source.cpp(29): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 5\SharedDLL\SendClient\Win32Project1\Debug\ReceiveClient.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 5\SharedDLL\SendClient\Win32Project1\Debug\ReceiveClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 5\SharedDLL\SendClient\Win32Project1\Debug\ReceiveClient.lib" /MACHINE:X86 Debug\Source.obj
+         "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 5\SharedDLL\SendClient\Win32Project1\Debug\SharedBufferDLL.lib"
+         ReceiveClient.vcxproj -> D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 5\SharedDLL\SendClient\Win32Project1\Debug\ReceiveClient.exe
+     1>Done Building Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 5\SharedDLL\SendClient\Win32Project1\ReceiveClient\ReceiveClient.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.39

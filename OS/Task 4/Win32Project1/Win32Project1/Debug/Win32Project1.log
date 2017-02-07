@@ -1,0 +1,23 @@
+﻿Build started 13.04.2016 13:21:25.
+     1>Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 4\Win32Project1\Win32Project1\Win32Project1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\Win32Project1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Win32Project1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Win32Project1.cpp
+         Win32Project1.cpp
+     1>d:\programming\bsu famcs\ос\лабы\subject 1 - dll\task 4\win32project1\win32project1\win32project1.cpp(170): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1316): note: see declaration of 'itoa'
+     1>d:\programming\bsu famcs\ос\лабы\subject 1 - dll\task 4\win32project1\win32project1\win32project1.cpp(172): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(920): note: see declaration of 'mbstowcs'
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Win32Project1.res" Win32Project1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 4\Win32Project1\Debug\Win32Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 4\Win32Project1\Debug\Win32Project1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 4\Win32Project1\Debug\Win32Project1.lib" /MACHINE:X86 Debug\Win32Project1.res
+         Debug\stdafx.obj
+         Debug\Win32Project1.obj
+         Win32Project1.vcxproj -> D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 4\Win32Project1\Debug\Win32Project1.exe
+     1>Done Building Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 1 - DLL\Task 4\Win32Project1\Win32Project1\Win32Project1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.53

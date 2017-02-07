@@ -1,0 +1,21 @@
+﻿Build started 11.04.2016 19:15:21.
+     1>Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 2 - Processes\Task 6\Subtask 1\MainA\MainA\MainA.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (MainA.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\programming\bsu famcs\ос\лабы\subject 2 - processes\task 6\subtask 1\maina\maina\source.cpp(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\programming\bsu famcs\ос\лабы\subject 2 - processes\task 6\subtask 1\maina\maina\source.cpp(32): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+     1>d:\programming\bsu famcs\ос\лабы\subject 2 - processes\task 6\subtask 1\maina\maina\source.cpp(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\programming\bsu famcs\ос\лабы\subject 2 - processes\task 6\subtask 1\maina\maina\source.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 2 - Processes\Task 6\Subtask 1\MainA\Debug\ProcessA.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 2 - Processes\Task 6\Subtask 1\MainA\Debug\ProcessA.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\BSU FAMCS\ОС\Лабы\Subject 2 - Processes\Task 6\Subtask 1\MainA\Debug\ProcessA.lib" /MACHINE:X86 Debug\Source.obj
+         MainA.vcxproj -> D:\Programming\BSU FAMCS\ОС\Лабы\Subject 2 - Processes\Task 6\Subtask 1\MainA\Debug\ProcessA.exe
+     1>Done Building Project "D:\Programming\BSU FAMCS\ОС\Лабы\Subject 2 - Processes\Task 6\Subtask 1\MainA\MainA\MainA.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.74
