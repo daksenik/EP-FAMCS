@@ -352,6 +352,8 @@ LONG WndProc_OnDestroy(HWND hWnd)
 		MessageBox(NULL,szRetRes,"WaitForMultipleObjects",MB_OK|MB_ICONEXCLAMATION);
 		break;
 	case WAIT_FAILED:
+    wsprintf(szRetRes, TEXT("Error %ld"), GetLastError());
+    MessageBox(NULL, szRetRes, "Wait error", MB_OK | MB_ICONEXCLAMATION);
 		break;
 	case WAIT_OBJECT_0:	
 		wsprintf(szRetRes,TEXT("WAIT_OBJECT_0=%d dwRet=%d"),WAIT_OBJECT_0,dwRet);
