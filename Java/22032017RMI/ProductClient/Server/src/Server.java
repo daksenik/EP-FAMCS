@@ -1,6 +1,3 @@
-import beans.ProductDesc;
-import beans.ProductItem;
-
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
