@@ -12,7 +12,7 @@ public class Server {
     public static void main(String[] args) {        
         try {
             Registry registry = LocateRegistry.createRegistry(7755);
-            //System.setProperty("java.rmi.server.hostname", "10.150.5.102");
+            System.setProperty("java.rmi.server.hostname", "10.150.5.102");
             ServerMethods service = new Service();
             registry.rebind("Service", service);
             System.out.println("Service added.");
