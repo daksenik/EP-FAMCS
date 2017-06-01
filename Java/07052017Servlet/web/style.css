@@ -1,0 +1,74 @@
+body{
+    background-color: lightgrey;
+}
+
+#wrapper {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    width: 30%;
+    margin: 9% auto;
+}
+
+#login-form{
+    background-color: #c8ffaf;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#personal-info-form {
+    margin-bottom: 0px;
+}
+
+.input-header {
+    color: #097700;
+    font-weight: bold;
+    display: block;
+}
+.text-input, .numb-input {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+}
+.inform-wrapper {
+    display: block;
+    text-align: center;
+}
+
+.button-input {
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    margin: 30px auto 0px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #006eff;
+    outline: none;
+}
+
+.button-input:hover {
+    cursor: pointer;
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+.field-header {
+    display: inline;
+    font-weight: bold;
+}
+
+.known-info {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}

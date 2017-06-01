@@ -1,0 +1,51 @@
+form{
+    background-color: lightgrey;
+    width: 20%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#index-buttons {
+    position: relative;
+    width: 100%;
+}
+#index-buttons input {
+    position: relative;
+    width: 49%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+}
+#index-buttons input:hover {
+    cursor: pointer;
+}
+
+#back-button{
+    position: relative;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+}
+#back-button:hover{
+    cursor: pointer;
+}
+
+#input-fields {
+    width: 70%;
+}
+#submit-buttons {
+    width: 30%;
+    float: right;
+}
+#submit-buttons input {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    background-color: #1b6ff7;
+}
+#submit-buttons input:hover{
+    cursor: pointer;
+}

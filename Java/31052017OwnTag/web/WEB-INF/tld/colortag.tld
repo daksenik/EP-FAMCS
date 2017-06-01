@@ -1,0 +1,17 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>gc</short-name>
+    <uri>/WEB-INF/tld/colortag.tld</uri>
+
+    <tag>
+        <name>grad</name>
+        <tag-class>tag.GradientTag</tag-class>
+        <body-content>scriptless</body-content>
+
+        <attribute>
+            <name>color</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+</taglib>
